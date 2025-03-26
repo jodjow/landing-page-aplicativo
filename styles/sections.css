@@ -16,11 +16,11 @@ section{
         & h2{
             margin-top: .5rem;
         }
-
-        & p{
-            margin-top: .5rem;
-            color: var(--text-color-secondary);
-        }
+    }
+    
+    & p{
+        margin-top: .5rem;
+        color: var(--text-color-secondary);
     }
 }
 
