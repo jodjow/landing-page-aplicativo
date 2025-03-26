@@ -4,8 +4,8 @@
     border: 0;
     background-color: transparent;
     display: flex;
-    align-items: center;
     width:fit-content;
+    justify-content: center;
 
     border-radius: .5rem;
     font: var(--fw-md) var(--fs-base)/1.5rem(--ff-sans);
@@ -47,12 +47,13 @@
 
 .btn[aria-label]{
     position: relative;
+    justify-content: center;
 
     &::before{
         content: "";
         position: absolute;
         border-radius: inherit;
-        inset: 0.09375rem;
+        inset: 1px;
         background-color: var(--bg-color);
     }
     &::after{
